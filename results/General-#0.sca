@@ -1,0 +1,27 @@
+version 3
+run General-0-20230422-07:24:32-21576
+attr configname General
+attr datetime 20230422-07:24:32
+attr datetimef 20230422-072432
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network SMPP
+attr processid 21576
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network SMPP
+
+par SMPP.ESME typename "\"ESME\""
+par SMPP.HLR typename "\"HLR\""
+par SMPP.MC typename "\"MC\""
+par SMPP.MOBILE typename "\"MOBILE\""
+par SMPP.SMSC typename "\"SMSC\""
+par SMPP typename "\"SMPP\""
+
